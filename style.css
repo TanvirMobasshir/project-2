@@ -1,0 +1,112 @@
+.first-part {
+    background-color: #dffadf;
+    height: 546px;
+    
+}
+.second-part{
+    margin: 50px;
+}
+.last-part{
+    position: absolute;
+    width: 1440px;
+    height: 369px;
+    left: 0px;
+    top: 2013px;
+    background-color: #282531;
+    color: white;
+    padding-top: 50px;
+    
+}
+.fixed-top{
+    background-color: #dffadf;
+}
+.first-head{
+    font-size: 48px;
+    font-weight: bold;
+}
+.second-head{
+    font-weight: bold;
+}
+.button-style{
+    border-radius: 33px;
+    background: #21B573;
+    width: 80px;
+    height: 30px;
+    border: #21B573;
+    color: white;
+}
+.all-buttons{
+    border-radius: 33px;
+    background: #21B573;
+    width: 100px;
+    height: 30px;
+    border: #21B573;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.orange-color{
+    color: #FD511A;
+}
+.green-color{
+    color: #21B573;
+}
+.purple-color{
+    color: #413960;
+}
+.text-center{
+    text-align: center;
+}
+.box-one{
+  
+    padding: 30px 0px;
+    border: none;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    margin: 10px;
+}
+.box-two{
+
+    padding: 30px 0px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 5px 10px;
+}
+.card{
+    box-shadow: 0px 5px 10px;
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+@media (max-width: 767.98px){
+    .first-part {
+        background-color: #dffadf;
+        height: 650px;
+        
+        
+    }
+    .second-part{
+        margin: 50px;
+        height: 1625px;
+        display: inline-block;
+    }
+    .last-part{
+        position: absolute;
+        width: 1440px;
+        height: 369px;
+        left: 0px;
+        top: 2013px;
+        background-color: #282531;
+        color: white;
+        padding-top: 50px;
+        min-height: 100vh;
+    }
+}
